@@ -5,15 +5,16 @@ import lombok.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Setter
+@ToString
 @Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
 
-public class Test {
+public class Lector {
     private String name;
     private String surname;
     private int age;
+    private String subject;
 
 }
